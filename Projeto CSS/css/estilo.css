@@ -1,0 +1,49 @@
+body{
+    fon-family: sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height:500px;
+    background-position: right center;
+    background-size: cover;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main{
+    width: 80%;
+    text-align:;
+    margin: auto;
+    
+}
+.content-section{
+    background-color:white;
+    padding: 2px 5px 10px 7px;
+    margin-top: 12px;
+}
+footer{
+    background-color: gray;
+    padding: 20px 15px 15px 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    text-shadow: 1px 1px 3px black; 
+}
+.content-section h2{
+    background-color: darkgrey;
+    text-align: left;
+    padding: 7px 3px 7px 2px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}

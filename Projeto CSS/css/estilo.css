@@ -1,26 +1,55 @@
 body {
-    fon-family: sans-serif;
+    font-family: sans-serif;
     background: #ccc;
     margin: 0;
 }
 
 .hero {
     background-image: url(../imagens/bg-3.jpg);
-    height: 500px;
+    height: 31.250em;
     background-position: right center;
     background-size: cover;
+    border-top: 0.063em solid transparent;
 }
+
+.hero li{
+    display: inline-block;
+    list-style: none;
+    border: 0.063em solid white;
+    margin-top: 0.31em;
+    margin-left: 0.63em;
+}
+.hero a{
+    background: rgba(0,0,0,0.4);
+    display: block;
+    padding: 0.94em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 0.063em;
+}
+
+.hero a:hover{
+    background: rgba(0,0,0,0.6);
+}
+
+.hero ul{
+    text-align: right;
+    margin: 0.63em 1.56em 0 0;
+}
+
 
 .hero-content {
     text-align: center;
     color: white;
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 .hero-content h1 {
     text-transform: uppercase;
-    font-size: 46px;
-    text-shadow: 3px 3px 2px #333;
+    font-size: 2.88em;
+    text-shadow: 0.19em 0.19em 0.13em #333;
 }
 
 main {
@@ -32,24 +61,24 @@ main {
 
 .content-section {
     background-color: white;
-    padding: 2px 5px 10px 7px;
-    margin-top: 12px;
+    padding: 0.13em 0.31em 0.63em 0.44em;
+    margin-top: 0.75em;
 }
 
-footer {
-    background-color: gray;
-    padding: 20px 15px 15px 20px;
-    margin: auto;
+.rodape {
+    height: 80px;
+    color:white;
+    font-size:0.88em;
     text-align: center;
-    color: white;
-    font-size: 11px;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 0.13em 0.13em 0.13em black;
+    background: #6b6c68;
+    line-height: 5em;
 }
 
 .content-section h2 {
     background-color: darkgrey;
     text-align: left;
-    padding: 7px 3px 7px 2px;
-    margin-top: 7px;
-    margin-bottom: 10px;
+    padding: 0.44em 0.19em 0.44em 0.13em;
+    margin-top: 0.44em;
+    margin-bottom: 0.63em;
 }

@@ -12,15 +12,16 @@ body {
     border-top: 0.063em solid transparent;
 }
 
-.hero li{
+.hero li {
     display: inline-block;
     list-style: none;
     border: 0.063em solid white;
     margin-top: 0.31em;
     margin-left: 0.63em;
 }
-.hero a{
-    background: rgba(0,0,0,0.4);
+
+.hero a {
+    background: rgba(0, 0, 0, 0.4);
     display: block;
     padding: 0.94em;
     color: white;
@@ -30,11 +31,11 @@ body {
     letter-spacing: 0.063em;
 }
 
-.hero a:hover{
-    background: rgba(0,0,0,0.6);
+.hero a:hover {
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.hero ul{
+.hero ul {
     text-align: right;
     margin: 0.63em 1.56em 0 0;
 }
@@ -44,6 +45,13 @@ body {
     text-align: center;
     color: white;
     margin-top: 6.25em;
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, .7);
+    display: inline-block;
+    padding: 0.31em;
+    border-bottom: 0.13em solid white;
 }
 
 .hero-content h1 {
@@ -63,14 +71,40 @@ main {
     background-color: white;
     padding: 0.13em 0.31em 0.63em 0.44em;
     margin-top: 0.75em;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1,
+.card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background: rgb(51, 46, 46);
+    color: white;
+    margin: 0;
+    display: block;
+    padding: 0.94em;
+    letter-spacing: 1px;
 }
 
 .rodape {
-    height: 80px;
-    color:white;
-    font-size:0.88em;
+    height: 5em;
+    color: white;
+    font-size: 0.88em;
     text-align: center;
-    text-shadow: 0.13em 0.13em 0.13em black;
+    text-shadow: 0.13em 0.13em 0.13em #3b3939;
     background: #6b6c68;
     line-height: 5em;
 }

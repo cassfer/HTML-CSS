@@ -83,3 +83,58 @@ body {
     text-align: center;
     margin-top: 80px;
 }
+
+.cards li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.cards p,h4{
+    text-align: center;
+    
+}
+
+.cards h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.cards p{
+    margin-top: 10px;
+    color: rgba(72, 72, 72, 0.72);
+}
+
+.section-2{
+    background-image: url(../imagens/bg_detalhe.png);
+    height: 600px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top left;
+    padding: 50px 114px 0px 100px;
+    box-sizing: border-box;
+}
+
+.section-2 p,h2{
+    text-align:;
+    color: white;
+}
+
+.section-2 .nojust{
+    text-transform: uppercase;
+    font-size: 300%;
+    margin-bottom: 0px;;
+}
+
+.section-2 .just{
+    text-transform: uppercase;
+    font-size: 325%;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+.section-2 p{
+    font-size: 135%;
+}

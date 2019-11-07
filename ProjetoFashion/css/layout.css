@@ -33,16 +33,17 @@ body {
 }
 
 .navi_principal a {
-    color: white;
+    color: #425564;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 90%;
     padding: 3px;
+    transition: color 0.3s linear;
 }
 
-.navi_principal li:hover {
-    background-color: rgba(3, 11, 15, 0.74);
+.navi_principal a:hover {
+    color: white;
 }
 
 .a1,
@@ -90,7 +91,8 @@ body {
 
 .cards li{
     display: inline-block;
-    margin: 10px;
+    margin: -4px;
+    padding: 7px;
 }
 
 .cards p,h4{
